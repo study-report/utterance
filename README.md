@@ -1,5 +1,1 @@
-1. Next.js with typescript
-2. Styled-components
-3. Recoil
-4. Jest
-5. Axios
+깃허브 이슈기반 댓글 라이브러리 utterances 테스트용 레포지토리 입니다.
