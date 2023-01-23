@@ -1,11 +1,18 @@
 import React from "react";
 import type { NextPage } from "next";
-import { useRecoilState } from "recoil";
-import { textState } from "../context";
+import MainLayout from "@/layout/App";
+import Utterance from "@/components/Utterance";
+import Title from "@/components/Title";
 
 const Main: NextPage = () => {
-  const [text] = useRecoilState(textState);
-  return <section id={`main`}>I love {text} 1.2.9</section>;
+  return (
+    <section id={`main`}>
+      <MainLayout
+        utterance={<Utterance repo="J1min/comments" theme="photon-dark" />}
+        title={<Title>한마디 해주기</Title>}
+      />
+    </section>
+  );
 };
 
 export default Main;

@@ -1,3 +1,4 @@
+import { theme } from './theme';
 import { createGlobalStyle } from "styled-components";
 export const UserStyle = createGlobalStyle` 
 @font-face {
@@ -9,5 +10,6 @@ export const UserStyle = createGlobalStyle`
 
 html {
   font-family: 'Pretendard-Regular';
+  background-color: ${theme.background};
 }
 `;
