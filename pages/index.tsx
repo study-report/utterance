@@ -14,7 +14,7 @@ const Main: NextPage = () => {
       <section id={`main`}>
         <MainLayout
           utterance={<Utterance repo="J1min/comments" theme="photon-dark" />}
-          title={<Title>한마디 해주기 🤔</Title>}
+          title={<Title>한마디 해주기</Title>}
         />
       </section>
     </>
