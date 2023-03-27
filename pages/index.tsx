@@ -9,9 +9,9 @@ const Main: NextPage = () => {
   return (
     <>
       <Head>
-        <title>한마디 해주기</title>
+        <title>안녕하세요! 홍지민입니다 🙇‍♂️</title>
       </Head>
-      <section id={`main`}>
+      <section id="main">
         <MainLayout
           utterance={<Utterance repo="J1min/comments" theme="photon-dark" />}
           title={<Title>한마디 해주기</Title>}
